@@ -1,0 +1,150 @@
+thead{
+    
+    color: white;
+    font-size: 18pt;
+    
+}
+th{
+    padding: 30pt;
+    font-family: Arial;
+    text-shadow: 1px 1px black;
+}
+body{
+    background-color: #f4aa3c;
+    font-family: Arial;
+}
+.pozadina{
+    background-image: linear-gradient(to right, #000000, #2191bd);
+    width: 1500;
+}
+h1{
+    margin-left: 20;
+    margin-right: 20;
+    background-color: rgb(0, 0, 0);
+    color: white;
+    padding-left: 5;
+   
+}
+.slika{
+    text-align: justify;
+    width: 400;
+    height: 300;
+}
+.slika img{
+    display: block;
+    margin: 0 auto;
+}
+.slikazgib{
+    text-align: justify;
+    width: 400;
+    height: 320;
+}
+.desno{
+    float: right;
+}
+.levo{
+    float: left;
+    margin-left: 15;
+    
+
+}
+.ledja{
+    display: table;
+}
+h2{
+    text-shadow: 1px 1.5px gray;
+}
+.slikadumbbell{
+    text-align: justify;
+    width: 500;
+    height: 375; 
+}
+.slikapropadanja{
+    text-align: justify;
+    width: 440;
+    height: 262; 
+}
+.gif{
+    width: 1500;
+    height: 750;
+}
+.giff{
+    background-image:image("gif.gif")
+}
+div{
+    display: table;
+}
+.ul{
+    margin-top: 10;
+    font-size: 20pt;
+    list-style: url("Strane/teg.png");
+    margin-left: 10;
+}
+.ishrana{
+    font-size: 20pt;
+}
+.hrana{
+    float: right;
+    width: 500;
+    height: 500;
+    box-shadow: black 1.5px 1.5px;
+}
+.ul2{
+    float: left;
+    margin-right: 100;
+    padding-top: 5;
+
+}
+hr{
+    width: 1000;
+    border-top: 5px solid red;
+}
+.program{
+    margin-top: 5;
+}
+.ul3{
+    font-size: 15pt;
+}
+.tabela{
+    background-image: linear-gradient(white,rgba(255, 255, 255, 0.925));
+    border: 3px solid black;
+}
+tr{
+    border-style: solid;
+    border-color: black;
+    border-width: 3px;
+}
+td{
+    text-align: center;
+    border: black 1px solid;
+}
+.hr{
+    width: 1500;
+}
+.ime{
+    font-size: 22pt;
+    background-image: repeating-radial-gradient(rgb(236, 199, 30),yellow);
+    margin-top: 10;
+    margin-left: 10;
+    text-align: center;
+    display: block;
+
+}
+.intro{
+    text-align: center;
+    font-size: 30pt;
+}
+.btn{
+background-color: orange;
+border: none;
+color: white;
+padding: 16px 32px;
+text-align: center;
+font-size: 16px;
+margin: 4px 2px;
+opacity: 1;
+transition: 0.85s;
+
+box-shadow: black 1px 1px;
+}
+.btn:hover {background-color: orangered;}
